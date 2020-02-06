@@ -30,7 +30,7 @@ main p {
 
 h1 {
     color:white;
-    background: rgb(184, 33, 41);
+    background: linear-gradient(to right, rgb(184, 33, 41), rgb(209, 203, 203));
     font-size: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
