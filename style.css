@@ -1,7 +1,7 @@
 /* Page details */
 
 html {
-  margin: 10px;
+  margin: 5px;
   padding: 30px; 
   border: 30px;
   font-family: Arial;
@@ -12,17 +12,29 @@ html {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: rgb(209, 203, 203);
 }
 
 main {
   padding-left: 275px;
 }
 
+main p {
+  padding-right: 80px;
+  padding-top: 0px;
+  padding-left: 35px;
+  padding-bottom: 10px;
+}
+
 h1 {
     color:white;
     background: rgb(107, 100, 100);
-    
+    font-size: 30px;
+    padding: 5px;
+}
+
+.card {
+  background: whitesmoke;
 }
 
 /* topnav container */
@@ -61,12 +73,7 @@ image {
   padding-top: 0px;
 }
 
-div p {
-  padding-top: 0px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 10px;
-}
+
 
 footer {
   text-align: center;
@@ -85,4 +92,6 @@ header {
 
 .week {
   padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 5px;
 }
