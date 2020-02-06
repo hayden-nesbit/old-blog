@@ -7,8 +7,10 @@ html {
   font-family: Arial;
 }
 
-.sticky{
+.sticky {
   position: fixed;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
 }
 
 main {
-  padding-left: 275px;
+  padding-left: 200px;
 }
 
 main p {
@@ -28,9 +30,12 @@ main p {
 
 h1 {
     color:white;
-    background: rgb(107, 100, 100);
+    background: rgb(184, 33, 41);
     font-size: 30px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    font-style: initial;
 }
 
 .card {
@@ -40,37 +45,34 @@ h1 {
 /* topnav container */
 
 .topnav {
-  overflow: hidden;
   font-size: 20px;
-  background-color: rgb(107, 100, 100);
-  padding: 0px;
+  padding-left: 30px;
   margin: 0px;
+  width: 200px;
 }
 
 .topnav a {
-  float: left;
-  text-align: center;
-  color: white;
+  display: block;
+  text-align: left;
+  color: black;
   text-decoration-line: none;
   padding: 10px;
 }
 
 .topnav a:hover {
-  background-color: rgb(209, 203, 203);
-  color: black;
+  color:rgb(209, 203, 203);
 }
 
 .topnav a.active {
-  background-color: rgb(175, 63, 63);
   padding: 10px;
   margin: 0px;
-  color: white;
+  color:rgb(184, 33, 41);
 }
 
 
 image {
-  float: right;
-  padding-top: 0px;
+  float: center;
+  padding-left: 50px;
 }
 
 
@@ -83,7 +85,7 @@ footer {
 }
 
 h2 {
-  color: rgb(177, 46, 46);
+  color: rgb(184, 33, 41);
 }
 
 header {
