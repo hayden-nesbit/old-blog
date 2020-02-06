@@ -1,0 +1,88 @@
+/* Page details */
+
+html {
+  margin: 10px;
+  padding: 30px; 
+  border: 30px;
+  font-family: Arial;
+}
+
+.sticky{
+  position: fixed;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  padding-left: 275px;
+}
+
+h1 {
+    color:white;
+    background: rgb(107, 100, 100);
+    
+}
+
+/* topnav container */
+
+.topnav {
+  overflow: hidden;
+  font-size: 20px;
+  background-color: rgb(107, 100, 100);
+  padding: 0px;
+  margin: 0px;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration-line: none;
+  padding: 10px;
+}
+
+.topnav a:hover {
+  background-color: rgb(209, 203, 203);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(175, 63, 63);
+  padding: 10px;
+  margin: 0px;
+  color: white;
+}
+
+
+image {
+  float: right;
+  padding-top: 0px;
+}
+
+div p {
+  padding-top: 0px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(107, 100, 100);
+  padding: 20px;
+  color: white;
+}
+
+h2 {
+  color: rgb(177, 46, 46);
+}
+
+header {
+  padding-top: 0px;
+}
+
+.week {
+  padding-left: 30px;
+}
