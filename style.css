@@ -1,27 +1,19 @@
-/* Page details */
+/* Page and details */
 
 html {
-  margin: 5px;
-  padding: 30px; 
-  border: 30px;
   font-family: Arial;
 }
 
-.sticky {
-  position: fixed;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
 body {
-  background-color: rgb(209, 203, 203);
+  padding: 0px;
+  margin: 0px;
 }
 
-main {
-  padding-left: 200px;
+main { /* set main content over out of way of Navbar */
+  padding-left: 240px;
 }
 
-main p {
+main p { /*set paragraphs w/in main section to be indented under h2/h3 */
   padding-right: 80px;
   padding-top: 0px;
   padding-left: 35px;
@@ -35,25 +27,21 @@ h1 {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 25px;
-    font-style: initial;
-}
-
-.card {
-  background: whitesmoke;
+    margin-right: 95px;
 }
 
 /* topnav container */
 
-.topnav {
+.topnav { 
+  display: block;
   font-size: 20px;
   padding-left: 30px;
-  margin: 0px;
-  width: 200px;
+  width: 150px;
 }
 
 .topnav a {
-  display: block;
   text-align: left;
+  float: left;
   color: black;
   text-decoration-line: none;
   padding: 10px;
@@ -69,30 +57,31 @@ h1 {
   color:rgb(184, 33, 41);
 }
 
-
 image {
   float: center;
-  padding-left: 50px;
+  padding-left: 0px;
 }
 
-
+.sticky { /*wrapped topnav and image in a "sticky" class and fixed position */
+  position: fixed;
+  padding-left: 45px;
+  padding-top: 20px;
+}
 
 footer {
   text-align: center;
-  background-color: rgb(107, 100, 100);
+  background-color: rgb(209, 203, 203);
   padding: 20px;
-  color: white;
+  width: 100%;
+  margin: 0px;
+  color: rgb(184, 33, 41);
 }
 
 h2 {
   color: rgb(184, 33, 41);
 }
 
-header {
-  padding-top: 0px;
-}
-
-.week {
+.week { /* made "week" class to indent content under h1 */
   padding-left: 30px;
   padding-right: 50px;
   padding-top: 5px;
