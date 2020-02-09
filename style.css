@@ -27,29 +27,63 @@ h1 {
     margin-right: 95px;
 }
 
-/* topnav container */
+/* navbar container */
 
-.topnav { 
-  display: block;
-  font-size: 20px;
-  padding-left: 30px;
-  width: 150px;
+.navbar { 
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 10px, solid, black;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
 }
 
-.topnav a {
+.navbar a {
   text-align: left;
-  float: left;
+  display: block;
   color: black;
   text-decoration-line: none;
   padding: 10px;
+  font-size: 20px;
 }
 
-.topnav a:hover {
-  color:rgb(209, 203, 203);
-}
-
-.topnav a.active {
+.dropdown {
+  float: left;
+  overflow: hidden;
   padding: 10px;
+  font-size: 20px;
+}
+
+/* adding color on the hover for links in main navbar, dropdown links, and button */
+.navbar a:hover, .dropdown:hover, .dropbtn {
+  color:rgb(196, 193, 193);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(196, 193, 193);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: white;
+}
+
+.navbar a.active {
+  padding: 12px 16px;
   margin: 0px;
   color:rgb(184, 33, 41);
 }
